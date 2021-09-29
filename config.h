@@ -7,7 +7,7 @@ static struct Config config = {
 	.foreground_color = "#e5e9f0",
 	.selbackground_color = "#ff4151",
 	.selforeground_color = "#0f111a",
-	.separator_color = "#CDC7C2",
+	.separator_color = "#272931",
 	.border_color = "#272931",
 
 	/* sizes in pixels */

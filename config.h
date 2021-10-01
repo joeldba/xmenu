@@ -1,19 +1,19 @@
 static struct Config config = {
 	/* font, separate different fonts with comma */
-	.font = "Terminus:size=8",
+	.font = "Terminus:size=8,FontAwesome5Free:size=8",
 
 	/* colors */
-	.background_color = "#0f111a",
-	.foreground_color = "#e5e9f0",
-	.selbackground_color = "#ff4151",
-	.selforeground_color = "#0f111a",
+	.background_color = "#0F111A",
+	.foreground_color = "#E5E9F0",
+	.selbackground_color = "#FF4151",
+	.selforeground_color = "#0F111A",
 	.separator_color = "#272931",
 	.border_color = "#272931",
 
 	/* sizes in pixels */
 	.width_pixels = 130,        /* minimum width of a menu */
 	.height_pixels = 25,        /* height of a single menu item */
-	.border_pixels = 2,         /* menu border */
+	.border_pixels = 1,         /* menu border */
 	.separator_pixels = 3,      /* space around separator */
 	.gap_pixels = 0,            /* gap between menus */
 

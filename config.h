@@ -1,6 +1,6 @@
 static struct Config config = {
 	/* font, separate different fonts with comma */
-	.font = "Terminus:size=8,FontAwesome5Free:size=8",
+	.font = "Terminus:size=8",
 
 	/* colors */
 	.background_color = "#0F111A",

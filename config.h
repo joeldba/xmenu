@@ -8,12 +8,12 @@ static struct Config config = {
 	.selbackground_color = "#FF4151",
 	.selforeground_color = "#0F111A",
 	.separator_color = "#272931",
-	.border_color = "#272931",
+	.border_color = "#0F111A",
 
 	/* sizes in pixels */
 	.width_pixels = 130,        /* minimum width of a menu */
 	.height_pixels = 25,        /* height of a single menu item */
-	.border_pixels = 1,         /* menu border */
+	.border_pixels = 4,         /* menu border */
 	.separator_pixels = 3,      /* space around separator */
 	.gap_pixels = 0,            /* gap between menus */
 
@@ -30,7 +30,7 @@ static struct Config config = {
 	.triangle_height = 7,
 
 	/* the icon size is equal to .height_pixels - .iconpadding * 2 */
-	.iconpadding = 2,
+	.iconpadding = 4,
 
 	/* area around the icon, the triangle and the separator */
 	.horzpadding = 8,
